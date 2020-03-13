@@ -14,7 +14,7 @@ Our motivation for this project is to improve our language modeling and text gen
 
 ## Tech stack
 * Python
-* TensorFlow/Keras
+* TensorFlow/Kera
 * PyTest
 * Telegram API
 * Travis CI
@@ -23,3 +23,9 @@ Our motivation for this project is to improve our language modeling and text gen
 ## Tools
 * GitHub for VC
 * Github project boards for task management
+* Tensorboard
+* git-flow
+
+## Datasets
+* [anekdot.ru](https://www.anekdot.ru/)
+* vk.com public pages ([example](https://vk.com/jumoreski))
