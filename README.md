@@ -1,5 +1,5 @@
-# Anecdotè Generation Service
-*Anecdotè (also known as joke) Generation Service, part of Practical Machine Learning and Deep Learning (PMLDL)
+# Anecdote Generation Service
+*Anecdoe (also known as joke) Generation Service, part of Practical Machine Learning and Deep Learning (PMLDL)
 and Modern Application Production (MAP) course.*
 *by Ilshat Gibadullin, Timur Valiev, Ilgizar Murzakov, Aidar Valeev*
 
