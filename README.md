@@ -5,8 +5,11 @@ and Modern Application Production (MAP) course.*
 
 ## Roles:
 Timur Valiev - Scram master & PM
+
 Ilshat Gibadullin - Python developer
+
 Ilgizar Murzakov - Python developer
+
 Aidar Valeev - Python developer
 
 The goal of the project is to develop a anecdote generation model and frontend to use it 
@@ -19,12 +22,11 @@ Our motivation for this project is to improve our language modeling and text gen
 
 
 ## Tech stack
-* Python
-* TensorFlow/Kera
-* PyTest
-* Telegram API
-* Travis CI
-* pre-commit
+* Python 
+* TensorFlow/Keras for model development
+* PyTest for testing
+* Telegram API for bot deployment
+* Travis CI for CI/CD (tests running and Telegram bot deployment)
 
 ## Tools
 * GitHub for VC
