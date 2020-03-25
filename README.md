@@ -3,6 +3,12 @@
 and Modern Application Production (MAP) course.*
 *by Ilshat Gibadullin, Timur Valiev, Ilgizar Murzakov, Aidar Valeev*
 
+## Roles:
+Timur Valiev - Scram master & PM
+Ilshat Gibadullin - Python developer
+Ilgizar Murzakov - Python developer
+Aidar Valeev - Python developer
+
 The goal of the project is to develop a anecdote generation model and frontend to use it 
 (web interface or Telegram bot). The finished system will generate random anecdotes on request, 
 or take beginning of an anecdote and complete it.
