@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Nitrogen13/joke-generation-service.svg?branch=master)](https://travis-ci.com/Nitrogen13/joke-generation-service)
+
 # Anecdote Generation Service
 *Anecdote (also known as joke) Generation Service, part of Practical Machine Learning and Deep Learning (PMLDL)
 and Modern Application Production (MAP) course.*
