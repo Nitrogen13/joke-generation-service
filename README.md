@@ -6,7 +6,7 @@ and Modern Application Production (MAP) course.*
 *by Ilshat Gibadullin, Timur Valiev, Ilgizar Murzakov, Aidar Valeev*
 
 ## Roles:
-Timur Valiev - Scram master & PM
+Timur Valiev - Scram master, PM, Code Review
 
 Ilshat Gibadullin - Python developer
 
