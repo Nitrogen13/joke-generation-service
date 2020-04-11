@@ -78,3 +78,7 @@ by Travis CI. Before the pull request is merged into master, the code is reviewe
 reviews.
  
 At the end of each sprint the board is reviewed, *Tasks* and Issues can be added, changed or removed.
+
+## PMLaDL reports
+* [D1.2-3 report](https://docs.google.com/document/d/1glTFTSRTlGs8IzuBljlIg9i5bvsGj1IOCFR_f2FSK1I/edit?usp=sharing)
+* [D1.4 report](https://docs.google.com/document/d/1gU_4gnmQ1Fy-h28csdIIT_OutgjfCzKi_W-iu5qKVKs/edit?usp=sharing)
