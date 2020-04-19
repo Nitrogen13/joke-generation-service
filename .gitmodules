@@ -1,0 +1,3 @@
+[submodule "ruGPT2"]
+	path = ruGPT2
+	url = git@github.com:vlarine/ruGPT2.git

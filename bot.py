@@ -1,9 +1,14 @@
 import logging
+import sys
 
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 from constants import API_TOKEN
+from gpt2_model import MODEL, TOKENIZER, ARGS
+
+sys.path.append("./ruGPT2")
+from ruGPT2.generate_samples import generate_samples_unconditional
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -16,9 +21,9 @@ dp = Dispatcher(bot)
 @dp.message_handler(regexp="Generate joke")
 async def generate_joke(message: types.Message):
     await types.ChatActions.typing()
-
+    print("Generating joke ...")
     await message.reply(
-        "Sample joke",
+        next(generate_samples_unconditional(MODEL, TOKENIZER, ARGS))["text"],
         reply_markup=ReplyKeyboardMarkup(
             keyboard=[[KeyboardButton(text="Generate joke")]], resize_keyboard=True
         ),
