@@ -3,3 +3,4 @@ aiogram==2.6.1
 tqdm==4.45.0
 vk-api==11.8.0
 pook==1.0.1
+pytest==4.0.2
