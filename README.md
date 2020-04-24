@@ -30,6 +30,10 @@ Our motivation for this project is to improve our language modeling and text gen
 * Telegram API for bot deployment
 * Travis CI for CI/CD (tests running and Telegram bot deployment)
 
+## CI details
+CI runs integration tests for telegram bot. 
+Tests located at `tests` folder. 
+
 ## Tools
 * GitHub for VC
 * Github project boards for task management
