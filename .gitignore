@@ -3,3 +3,5 @@ data/
 venv/
 .idea
 .pytest_cache
+*/__pycache__/
+__pycache__/
