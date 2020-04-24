@@ -31,8 +31,12 @@ Our motivation for this project is to improve our language modeling and text gen
 * Travis CI for CI/CD (tests running and Telegram bot deployment)
 
 ## CI details
-CI runs integration tests for telegram bot. 
-Tests located at `tests` folder. 
+Cl runs integration tests for the telegram bot. Tests are located at `tests`
+folder. Testing performed to expose defects in the interfaces and in the
+interactions between Joke Generation bot and Telegram.
+
+We used `pook` library for mocking requests to Telegram and `pytest` for
+test case writing. 
 
 ## Tools
 * GitHub for VC
