@@ -1,7 +1,4 @@
-import unittest
-
 import logging
-import unittest
 from pathlib import Path
 import pytest
 import pook
@@ -48,7 +45,7 @@ def get_mock_message(text):
 	
     
 @pytest.yield_fixture(name='bot')
-async def bot_fixture():
+async def bot_fixture(event_loop):
     """ Bot fixture """
     pook.on()
     _bot = Bot(API_TOKEN)
