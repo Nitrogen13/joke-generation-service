@@ -5,6 +5,19 @@
 and Modern Application Production (MAP) course.*
 *by Ilshat Gibadullin, Timur Valiev, Ilgizar Murzakov, Aidar Valeev*
 
+## Run
+Make sure that you have `nvidia-container-toolkit`  installed.
+
+Run production version:
+```bash
+docker build -t jokes_generator . 
+docker run --gpu all jokes_generator 
+```
+
+In order to successfully run `Joke Generation` bot,
+ you should have 14GB free disc space and 3GB video memory
+
+
 ## Roles:
 Timur Valiev - Scram master, PM, Code Review
 
