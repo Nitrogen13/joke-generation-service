@@ -48,7 +48,7 @@ def get_mock_message(text):
 	
     
 @pytest.yield_fixture(name='bot')
-async def bot_fixture(event_loop):
+async def bot_fixture():
     """ Bot fixture """
     pook.on()
     _bot = Bot(API_TOKEN)
