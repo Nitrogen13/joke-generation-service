@@ -59,32 +59,33 @@ All tasks are managed using the [GitHub project board](https://github.com/Nitrog
 
 #### Card types
 There are 3 types of cards on the board:
-1. **Task / Feature cards** - Major tasks related to the project. Tasks, that directly 
-provide value to the end user are marked as Feature. Each *Task* has following structure:
+1. **Task / Feature cards** - Major tasks related to the project (User Stories). US that directly 
+provide value to the end user are marked as Feature. US that do not provide value to the user directly are marked 
+as Task (e.g. research tasks). Each US has following structure:
     * Task/Feature tag
-    * Task description
+    * US description
     * Tag name for related issues and pull requests
     * Priority (MoSCoW method)
     * Acceptance Criteria (AC)
-1. **Issues** - issues are small tasks assigned to a developer. Each issues is marked with the tag of the *Task* that it 
-belongs to, one issue can belong to more than one *Task*. Additionally, each issue is marked with the Milestone of the
+1. **Issues** - issues are small tasks assigned to a developer. Each issues is marked with the tag of the US that it 
+belongs to, one issue can belong to more than one US. Additionally, each issue is marked with the Milestone of the
 sprint during which the work on this issue has started. New Issues automatically added to column *To do*.
 1. **Pull requests** - pull requests are created when work on an issue is done. Pull requests are linked to the related 
-issue, tagged with the tag of the related *Task*, and marked with the Milestone of the sprint. New pull requests are 
-automatically added to column *Test*.
+issue, tagged with the tag of the related US, and marked with the Milestone of the sprint. New pull requests are 
+automatically added to column US.
 
 #### Columns 
-* **Backlog** - List of *Tasks* to be implemented.
+* **Backlog** - List of US to be implemented.
 * **To do** - List of Issues to be implemented. New Issues are automatically added to this column 
 * **Sprint backlog** - List of Issues and Tasks to be implemented during this sprint.
 * **In progress** - List of Issues in work. Issues are assigned to a developer when moved to this column.
 * **Test** - List of Pull requests and completed Issues that have to be reviewed.
-* **Done** - List of completed and reviewed *Tasks*, Issues and Pull requests.
+* **Done** - List of completed and reviewed US, Issues and Pull requests.
 
 ## Development process
 Development process is organised into 2 week sprint cycle. At the beginning of each sprint, issues from *To do* column
 are selected for development and moved to *Sprint backlog* column. At the end of each sprint the board is reviewed, 
-*Tasks* and Issues can be added, changed or removed.
+US and Issues can be added, changed or removed.
 
 When developer takes an Issue, the developer is assigned to the Issue and the card is moved to the *In progress* column.
 The developer works on the Issue in a feature branch created from current `master` branch. The branch is named as 
