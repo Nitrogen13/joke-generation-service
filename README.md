@@ -96,7 +96,7 @@ reviews.
 
 Here is an example of how our gif-flow branching looks like:
 
-![Git-flow example](https://drive.google.com/uc?id=10wFt-cvs7ZEcxm67GlXhBxujzaHYQpbe)
+![Git-flow example](https://sun9-54.userapi.com/c855424/v855424377/239981/L71RgGtdccY.jpg)
 
 
 ## CI details
