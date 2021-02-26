@@ -1,6 +1,6 @@
 aiogram==2.6.1
 pook==1.0.1
-aiohttp==3.6.2
+aiohttp==3.7.4
 pytest-arraydiff==0.3
 pytest-astropy==0.5.0
 pytest-asyncio==0.10.0
